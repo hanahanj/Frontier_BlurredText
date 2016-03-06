@@ -1,0 +1,67 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+	 */
+
+	 * { margin: 0; padding: 0; }
+	 body { font: 14px Georgia, serif; text-align: center; }
+
+	 article, aside, figure, footer, header, hgroup,
+	 menu, nav, section { display: block; }
+
+	 section { padding: 100px; }
+
+	/* section:nth-child(odd) { background: #eee; }
+	 section:nth-child(even) { background: #333; }
+*/
+
+ @font-face {
+  font-family: "Plaground-Bold";
+  src: url('fonts/plaground_bold.otf');
+  font-weight: 100;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: "Plaground-Reg";
+  src: url('fonts/plaground_reg_1.1c.otf');
+  font-weight: 100;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+}
+
+	 h2 {
+	 	color: transparent;
+	 	display: block;
+	 	padding: 20px;
+	 	font: bold 72px "Plaground-Bold";
+	 	text-transform: uppercase;
+	 	letter-spacing: -1px;
+	 	text-shadow: 0 0 72px black; 
+	 	text-align: left;
+	 }
+
+	 .hovertown span {
+	 	-webkit-transition: all 5s ease;
+	 	-moz-transition:    all 5s ease;
+	 	-o-transition:      all 5s ease;
+	 	transition:         all 5s ease;
+	 }
+	 .hovertown span:hover {
+
+	 	color: black;     
+	 	-webkit-transition: all 0.2s ease;
+	 	-moz-transition:    all 0.2s ease;
+	 	-o-transition:      all 0.2s ease;
+	 	transition:         all 0.2s ease; 
+	 }
+
+	 #imgCanvas{
+	 	z-index: -100;
+	 }
+
+	
